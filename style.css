@@ -19,11 +19,12 @@ body {
 .navbar p {
     color: rgba(255, 255, 255, 0.63);
     font-family: 'Roboto';
-    transition: color 0.3s ease;
+    transition: color 0.3s ease, text-shadow 0.3s ease-in-out;
 }
 
 .navbar p:hover {
     color: white;
+    text-shadow:  0 0 10px #ffffff;
     cursor: pointer;
 }
 
@@ -48,13 +49,12 @@ body {
     margin: 0;
 }
 
-#h2 {
+.right-panel h2 {
     margin: 0;
     font-size: 2.7em;
     background: #7D91FF;
-    background: linear-gradient(to right, #7D91FF 25%, #5A69B9 100%);
+    background: linear-gradient(to right, #7d90f9 50%, #5A69B9 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-
-
 }
+
