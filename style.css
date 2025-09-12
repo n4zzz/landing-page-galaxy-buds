@@ -39,7 +39,7 @@ body {
 
 .right-panel {
     width: 60%;
-    font-size: 2.7em;
+    /* font-size: 2.7em; */
     color: white;
     font-family: 'Roboto';
     margin-top: 9%;
@@ -47,11 +47,13 @@ body {
 
 .right-panel h1 {
     margin: 0;
+    font-size: 6.5vw;
 }
 
 .right-panel h2 {
     margin: 0;
-    font-size: 2.7em;
+    /* font-size: 2.7em; */
+    font-size: 7.5vw;
     background: #7D91FF;
     background: linear-gradient(to right, #7d90f9 50%, #5A69B9 100%);
     -webkit-background-clip: text;
@@ -59,9 +61,15 @@ body {
 }
 
 .right-panel p {
-    font-size: 0.4em;
-    width: 63%;
+    font-size: 1.2vw;
+    width: 70%;
     letter-spacing: 0.1em;
     line-height: 1.3em;
     color: rgba(255, 255, 255, 0.51);
+}
+
+.buttons {
+    display: flex;
+    gap: 2em;
+    border: none;
 }
