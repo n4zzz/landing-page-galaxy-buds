@@ -58,3 +58,10 @@ body {
     -webkit-text-fill-color: transparent;
 }
 
+.right-panel p {
+    font-size: 0.4em;
+    width: 63%;
+    letter-spacing: 0.1em;
+    line-height: 1.3em;
+    color: rgba(255, 255, 255, 0.51);
+}
