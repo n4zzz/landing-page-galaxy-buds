@@ -1,0 +1,60 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background-image: url('bg-image.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navbar p {
+    color: rgba(255, 255, 255, 0.63);
+    font-family: 'Roboto';
+    transition: color 0.3s ease;
+}
+
+.navbar p:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.content {
+    display: flex;
+    height: 100%;
+}
+
+.left-panel {
+    width: 40%;
+}
+
+.right-panel {
+    width: 60%;
+    font-size: 2.7em;
+    color: white;
+    font-family: 'Roboto';
+    margin-top: 9%;
+}
+
+.right-panel h1 {
+    margin: 0;
+}
+
+#h2 {
+    margin: 0;
+    font-size: 2.7em;
+    background: #7D91FF;
+    background: linear-gradient(to right, #7D91FF 25%, #5A69B9 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+
+}
