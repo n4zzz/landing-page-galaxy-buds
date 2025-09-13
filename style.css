@@ -55,7 +55,7 @@ body {
     /* font-size: 2.7em; */
     font-size: 7.5vw;
     background: #7D91FF;
-    background: linear-gradient(to right, #7d90f9 50%, #5A69B9 100%);
+    background: linear-gradient(to right, #b9c3fa, #4153b9 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -71,5 +71,30 @@ body {
 .buttons {
     display: flex;
     gap: 2em;
+}
+
+.buttons button {
     border: none;
+    margin: 0;
+}
+
+#big-button {
+    padding: 1em;
+    width: 30%;
+    border-radius: 2em;
+    font-size: 1.3em;
+    font-family: 'Roboto';
+    font-weight: bold;
+    color: white;
+    background: #7D91FF;
+    background: linear-gradient(to right, #ccd3f8, #6671b0 100%);
+}
+
+#small-button {
+    width: 10%;
+    border: 2px solid white;
+    border-radius: 1.5em;
+    background-color: transparent;
+    font-size: 2rem;
+    color: white;
 }
