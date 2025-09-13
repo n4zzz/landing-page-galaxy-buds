@@ -43,6 +43,11 @@ body {
 .left-panel img {
     height: auto;
     width: 60%;
+    transition: transform 0.3s ease;
+}
+
+.left-panel img:hover {
+    transform: scale(1.1);
 }
 
 .right-panel {
