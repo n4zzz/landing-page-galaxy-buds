@@ -34,7 +34,15 @@ body {
 }
 
 .left-panel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 40%;
+}
+
+.left-panel img {
+    height: auto;
+    width: 60%;
 }
 
 .right-panel {
